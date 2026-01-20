@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="mt-2">
+        <label>Cinema Name</label>
+        @Html.DropDownListFor(x => x.Cinemaid, Model.CinemaList, "Select Cinema", new { @class = "form-control", @onchange = "this.form.submit()" })
+    </div>
+    <div class="mt-2">
+        <label>Ticket Type Name</label>
+        @Html.DropDownListFor(x => x.TicketTypeid, Model.TicketTypeList, "Select Ticket Type ", new { @class = "form-control" })
+    </div>
+    <div class="mt-2">
+        <label>Payment Method Name</label>
+        @Html.DropDownListFor(x => x.PaymentMethodId, Model.PaymentMethodTypeList, "Select Payment Type ", new { @class = "form-control" })
+    </div>
+    <div class="mt-2">
+        <label>Name </label>
+        @Html.TextBoxFor(x => x.CustomerName, new { @class = "form-control" })
+    </div>
+    <div class="mt-2">
+        <label>Date of Birth </label>
+        @Html.TextBoxFor(x => x.DOB, new { @class = "form-control date", type = "date" })
+    </div>
+    <div class="mt-2">
+        <label>Mobile</label>
+        @Html.TextBoxFor(x => x.Mobile, new { @class = "form-control", })
+    </div>
+    <div class="mt-2">
+        <label>No of Ticket</label>
+        @Html.TextBoxFor(x => x.No_of_Ticket, new { @class = "form-control", type = "Number" })
+    </div>
+    <div class="mt-2">
+        <label>Show Time</label>
+        @Html.DropDownListFor(x => x.ShowTime, Model.ShowTimeList, "Select Show Time", new { @class = "form-control" })
+    </div>
+    <div class="mt-2">
+        <label>Booking Date</label>
+        @Html.TextBoxFor(x => x.BookingDate, new { @class = "form-control date", type = "date" })
+    </div>
+    <div class="mt-2">
+        <input type="submit" value="Book your Ticket" class="btn btn-primary" />
+    </div>
+}
