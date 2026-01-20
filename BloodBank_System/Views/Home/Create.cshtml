@@ -1,0 +1,39 @@
+﻿@model BloodBank_System.Models.BloodRecord
+@{
+    ViewBag.Title = "Home Page";
+}
+<h2>Blood Record Shows here</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="mt-2">
+        <label>Blood groups </label>
+        @Html.DropDownListFor(x => x.BloodgroupCode, Model.BloodGroupList, "Select Blood group", new { @class = "form-control", @onchange = "this.form.submit()" })
+    </div>
+    <div class="mt-2">
+        <label>Blood Banks </label>
+        @Html.DropDownListFor(x => x.BloodbankCode, Model.BloodBankList, "Select Bank", new { @class = "form-control" })
+    </div>
+    <div class="mt-2">
+        <label>Customers </label>
+        @Html.DropDownListFor(x => x.CustomerName, Model.CustomerList, "Select customer", new { @class = "form-control" })
+    </div>
+    @*<div class="mt-2">
+            <select name="CustomerName" class="form-control">
+                <option value="">Select Customer</option>
+                <option value="Employee"> Employee</option>
+                <option value="Individual">Individual</option>
+            </select>
+        </div>*@
+    <div class="mt-2">
+        <label>Date of Transaction </label>
+        @Html.TextBoxFor(x => x.DateofTransaction, new { @class = "form-control date", type = "date" })
+    </div>
+    <div class="mt-2">
+        <label>Quantity</label>
+        @Html.TextBoxFor(x => x.Quantity, new { @class = "form-control", type = "Number", min = "1", max = "100" })
+    </div>
+    <div class="mt-2">
+        <input type="submit" value="Create Record" class="btn btn-primary" />
+    </div>
+}

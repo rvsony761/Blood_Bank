@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\New folder\\BloodBank_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|E:\\New folder\\BloodBank_System\\bloodbank_system\\models\\dbmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\models\\dbmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|E:\\New folder\\BloodBank_System\\bloodbank_system\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|E:\\New folder\\BloodBank_System\\bloodbank_system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|e:\\new folder\\bloodbank_system\\bloodbank_system\\views\\home\\report2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\views\\home\\report2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|E:\\New folder\\BloodBank_System\\bloodbank_system\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|E:\\New folder\\BloodBank_System\\bloodbank_system\\views\\home\\report1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\views\\home\\report1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|E:\\New folder\\BloodBank_System\\bloodbank_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF973A81-6818-4CE2-A181-13F7538BC0C5}|BloodBank_System\\BloodBank_System.csproj|solutionrelative:bloodbank_system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report1.cshtml",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Home\\Report1.cshtml",
+              "RelativeDocumentMoniker": "BloodBank_System\\Views\\Home\\Report1.cshtml",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Home\\Report1.cshtml",
+              "RelativeToolTip": "BloodBank_System\\Views\\Home\\Report1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T13:44:20.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BloodBank_System\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BloodBank_System\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAEBVwBUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T12:38:26.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "BloodBank_System\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "BloodBank_System\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAoAAAAAMzMzMzMLwBIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:44:11.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report2.cshtml",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Home\\Report2.cshtml",
+              "RelativeDocumentMoniker": "BloodBank_System\\Views\\Home\\Report2.cshtml",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Home\\Report2.cshtml",
+              "RelativeToolTip": "BloodBank_System\\Views\\Home\\Report2.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-08T06:16:40.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbModels.cs",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Models\\DbModels.cs",
+              "RelativeDocumentMoniker": "BloodBank_System\\Models\\DbModels.cs",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Models\\DbModels.cs",
+              "RelativeToolTip": "BloodBank_System\\Models\\DbModels.cs",
+              "ViewState": "AgIAADMAAADAzMzMzMwwwDwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:07:22.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BloodBank_System\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BloodBank_System\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T09:49:04.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "BloodBank_System\\Views\\Home\\Create.cshtml",
+              "ToolTip": "E:\\New folder\\BloodBank_System\\BloodBank_System\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "BloodBank_System\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAA8AAABgZmZmZmYkwB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-07T09:49:30.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

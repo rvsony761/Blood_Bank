@@ -1,0 +1,40 @@
+﻿@model List<BloodBank_System.Models.spreport2>
+@{
+    ViewBag.Title = "Contact";
+}
+@using (Html.BeginForm())
+{
+<div>
+    <div class="mt-3">
+        <label>Start Date</label>
+        <input type="date" name="StartDate" class="form-control" value="@Request.Form["StartDate"]" />
+    </div>
+    <div class="mt-3">
+        <label>End Date</label>
+        <input type="date" name="EndDate" class="form-control" value="@Request.Form["EndDate"]"/>
+    </div>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</div>
+}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Date of Transaction</td>
+            <td>Customer Type</td>
+            <td>Discount</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DateofTransaction.ToString("yyyy-MM-dd")</td>
+                <td>@item.CustomerName</td>
+                <td>@item.Discount</td>
+            </tr>
+        }
+    </tbody>
+
+</table>

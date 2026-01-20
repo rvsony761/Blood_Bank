@@ -1,0 +1,26 @@
+﻿@model List<BloodBank_System.Models.spreport1>
+@{
+    ViewBag.Title = "About";
+}
+<h2>Report 1 Here</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Blood Banks</td>
+            <td>Blood Groups</td>
+            <td>Customer Type</td>
+            <td>Quantity Sold</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.BloodbankName</td>
+                    <td>@item.BloodgroupName</td>
+                    <td>@item.CustomerName</td>
+                    <td>@item.QuantitySold</td>
+                </tr>
+            }
+    </tbody>
+</table>
