@@ -1,0 +1,39 @@
+﻿@model List<Student_Course.Models.spreport1>
+@{
+    ViewBag.Title = "About";
+}
+@using (Html.BeginForm())
+{
+    <div class="mt-2">
+        <label>StartDate</label>
+        <input type="date" name="StartDate" value="@Request.Form["StartDate"]" class="form-control" />
+    </div>
+    <div class="mt-2">
+        <label>EndDate</label>
+        <input type="date" name="EndDate" value="@Request.Form["EndDate"]" class="form-control" />
+    </div>
+    <div class="mt-2">
+        <input type="submit"  value="Search" class="btn btn-success" />
+    </div>
+}
+<table class="table table-striped">
+    <thead>
+        <tr class="fw-semibold">
+            <td>CourseName</td>
+            <td>Duration</td>
+            <td>Total_Students</td>
+            <td>Total_Payable</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CourseName</td>
+                <td>@item.Duration</td>
+                <td>@item.Total_Students</td>
+                <td>@item.Total_Payable</td>
+            </tr>
+        }
+    </tbody>
+</table>

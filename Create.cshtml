@@ -1,0 +1,32 @@
+﻿@model Student_Course.Models.Enrollment_detail
+@{
+    ViewBag.Title = "Home Page";
+}
+@using (Html.BeginForm())
+{
+    <div class="mt-3">
+        <label>Student Name</label>
+        @Html.DropDownListFor(x => x.StudentId, Model.StudentList, "Select Student", new { @class = "form-control" })
+    </div>
+    <label class="mt-2">Courses Lists</label>
+    <div class="form-check mt-2">
+        @foreach (var item in Model.CourseList)
+        {
+            <div>
+                <input type="checkbox" name="SelectedCoursesIds" value="@item.Value" />@item.Text
+            </div>
+        }
+    </div>
+    <div class="mt-3">
+        <label>Payment Method Name</label>
+        @Html.DropDownListFor(x => x.PaymentId, Model.PaymentMethodList, "Select Payment Method", new { @class = "form-control" })
+    </div>
+    <div class="mt-3">
+        <label>Enrollment Date</label>
+        @Html.TextBoxFor(x => x.Enrollment_Date, new { @class = "form-control date", type = "date" })
+    </div>
+    <div class="mt-3">
+        <input type="submit"  value="Enroll" class="btn btn-info"/>
+    </div>
+
+}
